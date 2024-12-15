@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>戒菸支持網站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#info">戒菸資訊</a></li>
+                <li><a href="#resources">資源下載</a></li>
+                <li><a href="#experts">專家諮詢</a></li>
+                <li><a href="#community">社群支持</a></li>
+                <li><a href="#blog">最新文章</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 首頁 -->
+        <section id="home">
+            <h1>歡迎來到戒菸支持網站</h1>
+            <p>提供專業資訊、資源下載及專家諮詢，助你順利戒菸。</p>
+            <img src="images/quit-smoking.jpg" alt="戒菸圖片" class="home-image">
+            <div class="welcome-message">
+                <p>戒菸改變生活，從今天開始！</p>
+            </div>
+        </section>
+
+        <!-- 戒菸資訊 -->
+        <section id="info">
+            <h2>戒菸資訊</h2>
+            <div class="info-item">
+                <h3>戒菸的好處</h3>
+                <ul>
+					<li class="lang-info-benefits">
+						<strong>提高心肺功能</strong>
+						<p>戒菸能減少對心臟和血管的負擔，有助於改善血液循環、降低血壓，並減少心臟病和中風的風險。</p>
+					</li>
+					<li class="lang-info-benefits">
+						<strong>減少癌症風險</strong>
+						<p>吸煙是許多癌症的主要原因。戒菸後，能降低患肺癌、口腔癌、喉癌等與吸煙有關的癌症風險。</p>
+					</li>
+					<li class="lang-info-benefits">
+						<strong>改善皮膚狀況</strong>
+						<p>吸煙會加速皮膚老化，造成皺紋和膚色暗沉。戒菸後，皮膚將有機會恢復，質地和膚色也會有所改善。</p>
+					</li>
+					<li class="lang-info-benefits">
+						<strong>節省開支</strong>
+						<p>吸煙是一個昂貴的習慣。戒菸後，你每年可以節省一大筆開支，這些錢可以用來做其他有益健康的事情，或是投入到自己喜愛的活動中。</p>
+					</li>
+                </ul>
+            </div>
+
+            <div class="info-item">
+                <h3>戒菸方法</h3>
+                <p>戒菸方法有很多種，根據不同人的情況，可以選擇最適合的方案。以下是常見的方法：</p>
+                <ul>
+                    <li>冷火雞法：一次性戒除，立刻停止吸煙。</li>
+                    <li>逐步減量法：逐漸減少每日吸煙量，最終戒除。</li>
+                    <li>藥物輔助法：通過戒菸藥物幫助減少戒斷症狀。</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 資源下載 -->
+        <section id="resources">
+            <h2>資源下載</h2>
+            <ul>
+                <li><a href="resources/戒菸日記.pdf" download>戒菸日記模板</a></li>
+                <li><a href="resources/戒菸行動計劃.pdf" download>戒菸行動計劃模板</a></li>
+                <li><a href="resources/戒菸小冊子.pdf" download>戒菸小冊子</a></li>
+                <li><a href="resources/成功故事.pdf" download>成功故事分享</a></li>
+            </ul>
+        </section>
+
+        <!-- 專家諮詢 -->
+        <section id="experts">
+            <h2>專家諮詢</h2>
+            <p>有任何疑問，請填寫下面的表單與我們的戒菸專家聯繫。</p>
+            <form id="contact-form">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">電子郵件：</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">留言：</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="提交">
+            </form>
+        </section>
+
+        <!-- 社群支持 -->
+        <section id="community">
+            <h2>社群支持</h2>
+            <p>加入我們的戒菸社群，與其他正在戒菸的人一起交流經驗和支持。</p>
+            <div class="forum">
+                <h3>最新討論</h3>
+                <ul>
+                    <li><a href="#">如何克服戒菸過程中的焦慮？</a></li>
+                    <li><a href="#">戒菸後的心理變化</a></li>
+                    <li><a href="#">成功戒菸的最佳方法</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 最新文章 -->
+        <section id="blog">
+            <h2>最新文章</h2>
+            <div class="blog-post">
+                <h3><a href="#">如何成功戒菸：專家建議</a></h3>
+                <p>這篇文章分享了戒菸專家的建議，幫助你選擇最適合你的戒菸方法...</p>
+            </div>
+
+            <div class="blog-post">
+                <h3><a href="#">戒菸過程中的常見挑戰</a></h3>
+                <p>戒菸的過程中，很多人會遇到各種挑戰，這篇文章將幫助你了解如何應對這些挑戰...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 戒菸支持網站. All rights reserved.</p>
+    </footer>
+</body>
+</html>
